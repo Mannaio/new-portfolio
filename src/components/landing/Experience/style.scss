@@ -1,0 +1,20 @@
+@import '../../../styles/main';
+.experience {
+	padding: 40px;
+	width: 100%;
+	&__container {
+		max-width: $max-width;
+		width: 100%;
+		& > p {
+			width: 80%;
+			margin: 15px auto 0 auto;
+		}
+	}
+	&__cards {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
